@@ -205,7 +205,7 @@ button:hover:not(.outline) {
 }
 
 .text-box {
-  width: 50%;
+  width: 55%;
   text-align: justify;
   background: rgb(0 0 0 / 50%);
   color: var(--on-primary);
