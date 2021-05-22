@@ -61,7 +61,7 @@ function filterArray(array) {
 function createItemEl(columnEl, column, item, index) {
   // List Item
   const listEl = document.createElement('li');
-  listEl.classList.add('drag-item');
+  listEl.classList.add('drag-item', 'col');
   listEl.textContent = item;
   listEl.draggable = true;
   listEl.setAttribute('ondragstart', 'drag(event)');
