@@ -86,10 +86,12 @@ a:focus {
   border-bottom: 3px solid;
 }
 
+
 /* Home Section */
 .title-group {
   text-align: center;
 }
+
 
 /* Profiles Section */
 .profiles-container {
@@ -138,6 +140,7 @@ a:focus {
   color: var(--on-background);
 }
 
+
 /* Services Section */
 .service-container {
   display: flex;
@@ -160,6 +163,7 @@ img {
   height: 300px;
   width: 300px;
 }
+
 
 /* Projects Section */
 .buttons {
@@ -227,6 +231,7 @@ p {
   line-height: 25px;
 }
 
+
 /* Contact Section */
 .fab {
   font-size: 100px;
@@ -238,6 +243,7 @@ p {
 .fab:hover {
   color: var(--on-background);
 }
+
 
 /* Dark Mode Toggle */
 .theme-switch-wrapper {

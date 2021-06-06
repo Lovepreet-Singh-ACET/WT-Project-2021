@@ -19,7 +19,6 @@ body {
   box-shadow: 0 5px 30px -5px rgba(0, 0, 0, 0.6);
 }
 
-/* Display */
 .calculator-display {
   background: black;
   color: white;
@@ -40,7 +39,6 @@ body {
   overflow-x: auto;
 }
 
-/* Custom Scrollbar */
 ::-webkit-scrollbar {
   width: 5px;
 }
@@ -57,7 +55,6 @@ body {
   background: #555;
 }
 
-/* Buttons */
 .calculator-buttons {
   display: grid;
   grid-gap: 10px;
@@ -108,7 +105,6 @@ button:focus {
   background: rgb(12, 22, 103);
 }
 
-/* Media Query: Large Smartphone (Vertical) */
 @media screen and (max-width: 600px) {
   .calculator {
     width: 95%;

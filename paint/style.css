@@ -21,7 +21,6 @@ body {
   justify-content: center;
 }
 
-/* Font Awesome Icons */
 .fas,
 .far {
   font-size: 25px;
@@ -50,7 +49,6 @@ body {
   color: rgb(223, 37, 37);
 }
 
-/* Tools */
 .active-tool {
   position: absolute;
   top: 9px;
@@ -99,7 +97,6 @@ body {
   user-select: none;
 }
 
-/* Custom Slider */
 .slider {
   -webkit-appearance: none;
   position: relative;
@@ -132,7 +129,6 @@ body {
   background: rgb(47, 47, 47);
 }
 
-/* JS Color */
 .jscolor {
   border-style: solid;
   border-radius: 5px;
@@ -144,7 +140,6 @@ body {
   outline: none;
 }
 
-/* Canvas */
 canvas#canvas {
   background-color: rgb(177, 177, 177);
   position: absolute;
@@ -153,12 +148,10 @@ canvas#canvas {
   z-index: 10;
 }
 
-/* Mobile Message */
 .mobile-message {
   display: none;
 }
 
-/* Media Query: Mobile Devices */
 @media screen and (max-width: 800px) {
   .mobile-message {
     position: absolute;
